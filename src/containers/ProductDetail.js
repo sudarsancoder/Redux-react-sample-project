@@ -19,7 +19,7 @@ const ProductDetail = () => {
       .catch((err) => {
         console.log("err", err);
       });
-    console.log("vavavava", response.data);
+    console.log("response data", response.data);
     dispatch(selectedProduct(response.data));
   };
 
